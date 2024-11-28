@@ -1,0 +1,136 @@
+.section-popular {
+    background: rgb(25, 0, 49);
+    background-image: url('../../../public/Images/popular-background.png');
+    background-size: cover;
+    background-position: center;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .popular-upper {
+    margin-bottom: 40px;
+  }
+  
+  .popular-upper h2 {
+    font-family: 'El Messiri';
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.4;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 20px;
+  }
+  
+  .popular-upper p {
+    font-family: 'El Messiri';
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+  }
+  
+  .left-popular {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    width: 100%;
+  }
+  
+  .popular-cards {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 20px; */
+    text-align: left;
+    color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 400px;
+  }
+  
+  .popular-cards:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .popular-cards img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover; 
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .popular-cards p {
+    margin: 10px 0;
+    font-size: 1rem;
+  }
+  
+  .popular-cards span {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 0.9rem;
+    font-weight: 300;
+  }
+  
+  .popular-cards button {
+    background: linear-gradient(90deg, #2E98FC 0%, #E01CF4 100%);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-top: auto;
+    transition: background 0.3s ease;
+  }
+  
+  
+  .section-popular button {
+    background: linear-gradient(90deg, #2E98FC 0%, #E01CF4 100%);
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 40px;
+    font-size: 1rem;
+    font-weight: 800;
+    transition:  0.3s ease;
+  }
+  
+  .section-popular button:hover {
+    background: linear-gradient(90deg, #2885db 0%, #ba17cc 100%);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .popular-upper h2 {
+        font-size: 2rem;
+    }
+  
+    .popular-upper p {
+        font-size: 1rem;
+    }
+  
+    .popular-cards {
+        width: 90%; /* Adjusts width for smaller screens */
+    }
+  
+    .section-popular button {
+        width: auto;
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+  }
+  

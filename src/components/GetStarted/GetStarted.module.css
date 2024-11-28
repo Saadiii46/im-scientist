@@ -1,0 +1,36 @@
+.section-started{
+    background: rgba(93, 55, 148, 1);
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    text-align: center;
+    padding: 0px;
+}
+
+.center{
+    color: white;
+    padding: 100px;
+}
+
+.center p {
+    font-weight: 300;
+    padding: 10px 0px;
+}
+
+.center button{
+    background: linear-gradient(90deg, #2E98FC 0%, #E01CF4 100%);
+    color: #fff;
+    padding: 10px 20px;
+    border-style: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.h2-head{
+    font-family: El Messiri;
+    font-size: 30px;
+}

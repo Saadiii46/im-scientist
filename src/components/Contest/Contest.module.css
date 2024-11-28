@@ -1,0 +1,259 @@
+.contest {
+    background: url('../../../public/Images/neon-3d-cybermonday-celebration-template.png') no-repeat center;
+    background-color: rgb(50, 0, 97);
+    background-size: cover;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: auto; 
+  }
+  
+  .contest-upper {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  
+  .contest-upper h2 {
+    font-family: 'El Messiri';
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .contest-upper p {
+    font-family: 'El Messiri';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .contest-types {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; 
+    flex-wrap: wrap; 
+  }
+  
+  
+  
+  @media (max-width: 768px) {
+    .contest-upper h2 {
+      font-size: 36px;
+    }
+  
+    .contest-upper p {
+      font-size: 16px;
+    }
+  
+    .contest-types {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .contest-types .type {
+      flex: 1 1 100%; 
+      max-width: 100%;
+      margin-bottom: 20px; 
+    }
+  }
+  
+  
+  /* Pink Color */
+  .contest-type2-color{
+    color: #fe3fe5;
+  }
+  
+  .contest-type2-background{
+    background: #fe3fe5;
+  }
+  
+  .contest-type2-border{
+    border: 3px solid #fe3fe5;
+  }
+  
+  
+  /* Blue Color */
+  .contest-type1-color{
+    color: #00ffdd;
+  }
+  
+  .contest-type1-background{
+    background:#00ffdd;
+  }
+  
+  .contest-type1-border{
+    border: 3px solid #00ffdd;
+  }
+  
+  
+  /* Green Color */
+  .contest-type3-color{
+    color: #0c58fd;
+  }
+  
+  .contest-type3-background{
+    background: #0c58fd;
+  }
+  
+  .contest-type3-border{
+    border: 3px solid #0c58fd;
+  }
+  
+  
+  
+  
+  
+  
+  .contest-container {
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 40px auto;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .contest-container:hover {
+    transform: scale(1.05);
+  }
+  
+  .contest-title {
+    font-size: 2rem;
+    text-align: left;
+    font-family: "Style Script";
+    font-weight: 500;
+    font-size: 60px;
+    font-style: italic;
+  }
+  
+  .contest-subtitle {
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 6px;
+    margin: 1px 0px 20px;
+    margin-top: -20px;
+  }
+  
+  .contest-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .contest-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  
+  
+  .contest-icon-container {
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .contest-icon-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 24px;
+  }
+  
+  .contest-dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    margin: 0 2px;
+  }
+  
+  .contest-bar-left, .contest-bar-right {
+    position: absolute;
+    width: 4px;
+    height: 16px;
+  }
+  
+  .contest-bar-left {
+    top: -8px;
+    left: 10px;
+    border-radius: 2px;
+  }
+  
+  .contest-bar-right {
+    top: -8px;
+    right: 10px;
+    border-radius: 2px;
+    
+  }
+  
+  .contest-icon-date {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px 0;
+  }
+  
+  .contest-date {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .contest-month {
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  
+  .contest-item-details {
+    border-bottom: 4px solid #fff;
+    padding-bottom: 5px;
+  }
+  
+  .contest-item-title {
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .contest-item-dates {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #fff;
+    padding: 8px 5px;
+    border-radius: 5px;
+  }
+  
+  .contest-button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: 600;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .contest-button:hover {
+    background: #f1f1f1;
+  }
+  
